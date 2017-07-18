@@ -8,4 +8,6 @@ class User(AbstractUser):
     email = models.EmailField(null=True, unique=True)
 
 
-class PlayList1()
+class PlayList1():
+    dummy_field = models.TextField()
+    pass
