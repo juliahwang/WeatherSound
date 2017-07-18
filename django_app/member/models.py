@@ -9,4 +9,5 @@ class User(AbstractUser):
 
 
 class PlayList1():
+    dummy_field = models.TextField()
     pass
